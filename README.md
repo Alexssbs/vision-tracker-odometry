@@ -420,11 +420,10 @@ Las pruebas utilizan un detector simulado por color (`fake_detector.py`) que evi
 ---
 ## Licencia
 
-Distribuido bajo la licencia MIT. Consulta el archivo `LICENSE` para más información.
+Distribuido bajo la licencia MIT.
 
 ---
 
 <p align="center">
   <sub>Desarrollado como proyecto integrador del curso de Visión Artificial.</sub>
 </p>
-```
