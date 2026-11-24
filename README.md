@@ -32,8 +32,6 @@ El sistema está diseñado para escenarios de videovigilancia y análisis de tr�
 - [Perfiles de análisis](#perfiles-de-análisis)
 - [Resultados exportados](#resultados-exportados)
 - [Pruebas](#pruebas)
-- [Limitaciones](#limitaciones)
-- [Trabajo futuro](#trabajo-futuro)
 - [Licencia](#licencia)
 
 ---
