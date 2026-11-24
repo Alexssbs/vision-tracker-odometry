@@ -1,0 +1,28 @@
+* { font-family: "Segoe UI", "Inter", "Ubuntu", sans-serif; font-size: 12px; color: #e2e8f0; }
+QMainWindow, QWidget { background-color: #0b0f17; }
+QFrame#topbar { background-color: #111827; border-bottom: 1px solid #1f2937; }
+QLabel#title { font-size: 16px; font-weight: 700; color: #38bdf8; }
+QGroupBox { border: 1px solid #1f2937; border-radius: 8px; margin-top: 12px; padding: 10px 8px 8px 8px;
+            background-color: #111827; font-weight: 600; }
+QGroupBox::title { subcontrol-origin: margin; left: 10px; padding: 0 4px; color: #94a3b8; }
+QPushButton { background-color: #1f2937; border: 1px solid #334155; border-radius: 6px; padding: 6px 10px; }
+QPushButton:hover { background-color: #334155; }
+QPushButton:disabled { color: #64748b; background-color: #151c28; }
+QPushButton#primary { background-color: #0ea5e9; border: none; color: #04121c; font-weight: 700; }
+QPushButton#primary:disabled { background-color: #164e63; color: #64748b; }
+QPushButton#hint { text-align: left; border: none; background: transparent; color: #facc15; }
+QComboBox, QSpinBox, QDoubleSpinBox, QListWidget, QTableWidget {
+    background-color: #0f172a; border: 1px solid #334155; border-radius: 5px; padding: 3px; }
+QHeaderView::section { background-color: #1f2937; border: none; padding: 4px; }
+QTabWidget::pane { border: 1px solid #1f2937; }
+QTabBar::tab { background: #111827; padding: 6px 12px; border: 1px solid #1f2937; }
+QTabBar::tab:selected { background: #1e293b; color: #38bdf8; }
+QFrame#card { background-color: #111827; border: 1px solid #1f2937; border-radius: 10px; }
+QLabel#cardTitle { color: #94a3b8; font-size: 11px; }
+QLabel#cardValue { font-size: 22px; font-weight: 700; color: #f8fafc; }
+QLabel#cardSub { color: #64748b; font-size: 11px; }
+QScrollArea { border: none; }
+QStatusBar { background-color: #111827; color: #94a3b8; }
+QCheckBox::indicator, QRadioButton::indicator { width: 14px; height: 14px; }
+QLabel, QCheckBox, QRadioButton { background: transparent; }
+QGroupBox QLabel { background: transparent; }
